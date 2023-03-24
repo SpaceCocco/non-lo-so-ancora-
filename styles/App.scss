@@ -1,0 +1,87 @@
+@import './colors.scss';
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer{
+  background-color: $black;
+  color: $white;
+
+.footer-container{
+  display: flex;
+  max-width: 1110;
+  justify-content: space-around ;
+  margin: auto;
+}
+
+}
+
+.app-navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: $black;
+  color: $white;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  .navbar-items{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+  
+
+  .nav-links{
+    text-decoration: none;
+    color: grey;
+
+    &:hover{
+      color: $white;
+      font-size: 20px;
+    }
+    }
+  }
+}
+
+.section{
+  background-color: aqua;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item{
+  background-color: #fff;
+  margin: 2rem;
+
+  img{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .item-text{
+    padding: 1.5rem;
+  }
+}
+
+.swiper-slide{
+  width: 1275px;
+  height: 30rem !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home{
+  flex-grow: 1;
+}
+
